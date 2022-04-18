@@ -26,6 +26,18 @@ To make sure correct information is logged when capturing attacker information, 
 curl https://localhost:PORT/
 ```
 
+## Steps to run
+1. Clone the repo
+2. Start Docker desktop
+3. Open the solution using VS 2022
+4. Select "Docker" ![image](https://user-images.githubusercontent.com/17958639/163865059-dc7b3d6b-9c88-4b88-9118-11ef0d76f4b9.png)
+5. Click run or hit "F5"
+6. Open command window
+7. Run below after replacing the port with the port copied from the swagger url
+```
+>curl https://localhost:PORT/test
+```
+
 ### Sample output of the project (Port getting changed when re-run the project)
 ```
 >curl https://localhost:49185/test
