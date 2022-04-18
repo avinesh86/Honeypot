@@ -22,5 +22,15 @@ Since I am creating a new thread everytime a new request comes. It will not affe
 curl https://localhost:PORT/
 ```
 
+### Sample output of the project (Port getting changed when re-run the project)
+```
+>curl https://localhost:49185/test
+Not found
+Not found
+Not found
+Not found
+...
+```
+
 ### Notes
 Since the Honeypot implemented to accept all GET requests, swagger index.html will not load
