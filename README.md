@@ -1,5 +1,5 @@
 # Honeypot
-Web Scanner Honeypot for Worldline
+Web Scanner Honeypot
 
 ### Some of these bots may issue many concurrent requests. How will your service handle that and what are its limitations?
 Here I am running a thread to manage concurrent requests. 
