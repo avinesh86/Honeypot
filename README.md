@@ -1,7 +1,7 @@
 # Honeypot
 Web Scanner Honeypot
 
-### Some of these bots may issue many concurrent requests. How will your service handle that and what are its limitations?
+### Some of these bots may issue many concurrent requests. How will this service handle that and what are its limitations?
 .net core runtime is capable of handling concurrent requests out of the box due to the implementation of the Task runner and how thread scheduling is handled with asynchronous methods. Since the web API end point in this scenario is an asynchronous end point that returns a Task object, IIS will handle thread management effectively without any additional configuration. 
 But I have added code to run each method in its own independent thread regardless just to emphasize my intent. 
 We can also use ConfigureAwait(false) to make sure the main thread is not affected, but then again in this case that does not add any additional behaviour or advantage.
