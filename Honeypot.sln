@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Honeypot", "Honeypot.csproj", "{EDD862EE-19E7-47BD-89B2-C58B8F890895}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDD862EE-19E7-47BD-89B2-C58B8F890895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDD862EE-19E7-47BD-89B2-C58B8F890895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDD862EE-19E7-47BD-89B2-C58B8F890895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDD862EE-19E7-47BD-89B2-C58B8F890895}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED75A453-1299-4705-87D2-59DB0CB0D44B}
+	EndGlobalSection
+EndGlobal
